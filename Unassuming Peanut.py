@@ -7,7 +7,7 @@ if choice == "N":
     print("You stare at the unassuming peanut. It is unassuming, but you're alive.")
 if choice == "Y":
     print("Why did you do that? You're allergic to peanuts! You Died.")
-    player_health = 149
+    player_health = 0
     print("Health: ", player_health)
 
 

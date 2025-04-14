@@ -1,3 +1,4 @@
+# restructure to add more choices within a loop.
 player_health = 25
 print("Health: ", player_health)
 print("You're starving. Across the room you see a peanut.")

@@ -1,18 +1,28 @@
-# restructure to add more choices within a loop.
-player_health = 25
-print("Health: ", player_health)
-print("You're starving. Across the room you see a peanut.")
-choice = input("Do you eat it? Y/N ")
+while True: 
+    print("\nYou're starving. Across the room you see a peanut.")
+    print("\nDo you eat it?")
 
-if choice == "N":
-    print("You stare at the unassuming peanut. It is unassuming, but you're alive.")
-if choice == "Y":
-    print("Why did you do that? You're allergic to peanuts! You Died.")
-    player_health = 0
-    print("Health: ", player_health)
+    print("1: Yes")
+    print("2: No")
+    print("3: Exit")
+    
+    choice = input("Your response: ")
 
-
-
+    if choice == "1":
+        print("\nYou stare at the unassuming peanut. It is unassuming, but you're alive...for now.")
+        break
+    if choice == "2":
+        print("\nWhy did you do that? You're allergic to peanuts! You Died.")
+        break
+    if choice == "3":
+        print("Wait the door was open this whole time?")
+        break
+    else:
+        print("\nTry again. Choice not recognized.")
+        
+print("THE END")
+        
+        
 
 
 
